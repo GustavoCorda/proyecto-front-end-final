@@ -187,21 +187,59 @@ section{
     margin-top: 25px;
 }
 
-section p{
+.letra-grande{
     font-family: 'rubik glitch','segoe ui';
     font-size: 45px;
 }
 
-section div:first-child{
-    margin-top: 20px;
+.texto-persona{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
 }
 
+/* section div:first-child{
+    margin-top: 20px;
+} */
 
-section img{
-    width: 300px;
-    height: 320px;
+.persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px 2px;
+}
+
+.persona img{
+    width: auto;
+    height: 175px;
     border-radius: 5px;
 }
+
+.nombre-cliente{
+    color: blue;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: x-large;
+}
+
+.texto-persona{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    border: 1px solid rgb(220, 211, 211);
+    border-radius: 8px;
+}
+
+.estrellas{
+    position: relative;
+    bottom: 3px;
+}
+
+
+
 
 .personas{
     width: 1050px ;
@@ -219,6 +257,15 @@ section img{
     font-size: 15px;
 }
 
+.la-star{
+    color: yellow;
+    font-size: xx-large;
+}
+
+.letra-grande2{
+    font-family: 'rubik glitch','segoe ui';
+    font-size: large;
+}
 /* ### BOTON FLOTANTE WHATSAPP ### */
 
 .whatsapp{
